@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire de paiement</title>
+</head>
+<body>
+
+<form>
+
+    <!-- Votre identité -->
+    <fieldset>
+        <legend>Votre identité</legend>
+
+        1. Nom * :
+        <input type="text" placeholder="Prénom et nom"><br><br>
+
+        2. Email :
+        <input type="email" placeholder="exemple@domaine.com"><br><br>
+
+        3. Téléphone * :
+        <input type="tel" placeholder="par ex : +21698989898">
+    </fieldset>
+
+    <br>
+
+    <!-- Adresse de livraison -->
+    <fieldset>
+        <legend>Adresse de livraison</legend>
+
+        1. Adresse :<br>
+        <textarea rows="4" cols="40"></textarea><br><br>
+
+        2. Code postal :
+        <input type="text"><br><br>
+
+        3. Ville :
+        <select>
+            <option>Nabeul</option>
+            <option>Tunis</option>
+            <option>Sousse</option>
+        </select>
+    </fieldset>
+
+    <br>
+
+    <!-- Informations Carte Bancaire -->
+    <fieldset>
+        <legend>Informations Carte Bancaire</legend>
+
+        1. Type de carte bancaire :<br>
+        <input type="radio" name="carte"> VISA<br>
+        <input type="radio" name="carte"> E-dinar<br>
+        <input type="radio" name="carte"> Mastercard<br><br>
+
+        2. Numéro de carte * :
+        <input type="text"><br><br>
+
+        3. Code CVV2 * :
+        <input type="text"><br><br>
+
+        4. Nom du porteur :
+        <input type="text" placeholder="Même nom que sur la carte"><br><br>
+
+        <input type="checkbox"> livraison Express
+    </fieldset>
+
+    <br>
+
+    <input type="submit" value="Valider">
+    <input type="reset" value="Annuler">
+
+    <a href="#">Pour plus d’info veuillez nous contacter</a>
+
+</form>
+
+</body>
+</html>
